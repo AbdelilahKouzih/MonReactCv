@@ -1,0 +1,42 @@
+{
+  "langages": [
+    { "nom": "JavaScript", "niveau": 80, "id": 1 },
+    { "nom": "HTML/CSS", "niveau": 90, "id": 2 },
+    { "nom": "Python", "niveau": 70, "id": 3 },
+    { "nom": "Java", "niveau": 90, "id": 4 },
+    { "nom": "C#", "niveau": 70, "id": 5 },
+    { "nom": "C", "niveau": 70, "id": 6 },
+    { "nom": "Php", "niveau": 70, "id": 7 }
+  ],
+  "frameworks": [
+    { "nom": "React", "niveau": 80 },
+    { "nom": "Node js", "niveau": 53 },
+    { "nom": "Vue js", "niveau": 20 }
+  ],
+  "experience": [
+    {
+      "poste": "Stagiaire",
+      "annee": "2020-2021",
+      "description": "Lorem ipsum dolor sit amet..."
+    },
+    {
+      "poste": "Téchnicien",
+      "annee": "2021-2022",
+      "description": "Lorem ipsum dolor sit amet..."
+    }
+  ],
+  "autresCompetences": [
+    "Gestion de projet",
+    "Communication",
+    "Analyse des données"
+  ],
+  "interets": ["Musique", "Voyages", "Cuisine"],
+  "projets": [
+    { "id": 1, "langageId": 1, "nom": "Projet JavaScript 1", "image": "4.png" },
+    { "id": 2, "langageId": 1, "nom": "Projet JavaScript 2", "image": "2.png" },
+    { "id": 3, "langageId": 1, "nom": "Projet HTML/CSS 1", "image": "3.png" }
+   
+  ]
+  
+  
+}
