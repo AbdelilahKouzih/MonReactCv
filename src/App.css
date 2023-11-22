@@ -217,9 +217,7 @@ h5{
 
 }
 
-.animation3D{
-   
-}
+
 
  .cube {
      position: relative;
@@ -653,6 +651,72 @@ ul {
 }
 
 
+/* Contact */
 
 
 
+
+
+form {
+  position:absolute;
+  left:24%;
+  top: 14%;
+  padding-left:25px;
+  padding-right:25px;
+  padding-top:60px;
+  margin: 12px auto;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  position:relative;
+  z-index:1;
+}
+
+form > div{
+  position:absolute;
+  left:50%;
+  top: 8%;
+  padding:0 10px;
+  transform:translate(-50%,-50%);
+  text-align:center;
+}
+
+form > div > img{
+  filter:invert(1);
+  width:50px;
+}
+
+form > input,
+form > textarea {
+  padding: 12px;
+  margin: 12px auto;
+  border: 1px solid #fff;
+  color: #080808;
+  background-color: #c9c6c6;
+  border-radius: 15px;
+  display: block;
+  width: 50vw;
+}
+
+form > textarea{
+  height:100px;
+  resize:none;
+}
+
+form > input[type="submit"] {
+  max-width: 20vw;
+  padding-left: 1%;
+  padding-right: 1%;
+  cursor: pointer;
+  transition: 0.35s;
+}
+
+form > input[type="submit"]:hover {
+  background-color: #8f8e8e;
+}
+
+
+/* Optionally, you can also style the placeholder text for required fields */
+form > input:required::placeholder,
+form > textarea:required::placeholder {
+  color: #615f5f; /* Change to the desired color */
+}
